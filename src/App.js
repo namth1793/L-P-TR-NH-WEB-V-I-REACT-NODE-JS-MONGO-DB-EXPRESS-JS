@@ -38,9 +38,9 @@ function Form() {
     let NAME = e.target.name.value;
     let BRANCH = e.target.branch.value;
     if (state.button === 1) {
-      if (branchNo == "001") {
+      if (branchNo === "001") {
         document.getElementById("address").innerHTML = "43 Domenic Horse";
-      } else if (branchNo == "002") {
+      } else if (branchNo === "002") {
         document.getElementById("address").innerHTML = "92 Run Bear";
       } else {
         document.getElementById("address").innerHTML = "75 Chauncey Lion";
